@@ -1,0 +1,36 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# PyInstaller
+build/
+dist/
+
+# Local application data
+*.db
+*.sqlite
+*.sqlite3
+Reports/
+Quarantine/
+logs/
+
+# Sensitive and local settings
+.env
+.env.*
+config/settings.json
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+USBGuardian_Test/
+eicar.com
+eicar.com.txt
